@@ -4,9 +4,9 @@ k=input()
 a=int(x)
 b=int(y)
 c=int(k)
-total =a*b
+total=a*b
 
-if total<k:
+if total<c:
     print("no")
 elif a%c==0  or b%c==0:
     print("Yes")
