@@ -1,0 +1,16 @@
+def globalscope():
+    print("fff")
+
+x=100
+def a():
+    x=200
+    def b():
+        x=400
+        print(x)
+        b()
+
+print(x)
+a()
+globalscope()
+print(x)
+
