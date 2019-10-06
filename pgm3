@@ -1,1 +1,6 @@
 print("test")
+x="test"
+n=0
+while(n < len(x)):
+    print(x[n])
+    n+=1
