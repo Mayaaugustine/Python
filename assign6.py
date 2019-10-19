@@ -6,8 +6,18 @@ b=[]
 c=[]
 b=a.copy()
 a.sort()
-print(a)
 print(b)
 
-for i in range (0,len(b)):
+for i in range (0,x-1):
+  print(i)
   print(b[i])
+  print(a[0])
+  print(a[x-1])
+  if a[0]==b[i]:
+    c.append(a[x-1])
+  elif a[x-1] == b[i]:
+    c.append(a[0])
+  else:
+    c.append(b[i])
+
+print(c)
