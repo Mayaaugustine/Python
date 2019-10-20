@@ -18,9 +18,12 @@ for i in range(x):
     for j in range(x):
         if i==j:
             a[i][j] = 1
-        elif i<j:
-            a[i][j] = 0
         else:
-            a[i][j] = 2
+            a[i][j] = 0
+            a[j][i] = 2
 
 print(a)
+
+for m in range(1):
+    print(a,'\n')
+
